@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "G:\\AndroidStudioProjects\\androminion - Copy\\androminion\\build\\intermediates\\res\\merged\\release\\menu\\activity_statistics.xml",
+        "source": "G:\\AndroidStudioProjects\\androminion - Copy\\androminion\\src\\main\\res\\menu\\activity_statistics.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\androminion - Copy\\androminion\\build\\intermediates\\res\\merged\\release\\menu\\game_menu.xml",
+        "source": "G:\\AndroidStudioProjects\\androminion - Copy\\androminion\\src\\main\\res\\menu\\game_menu.xml"
+    }
+]

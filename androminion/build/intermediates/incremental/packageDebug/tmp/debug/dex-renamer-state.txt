@@ -1,0 +1,4 @@
+#Sun Apr 08 23:14:56 MDT 2018
+base.0=G\:\\AndroidStudioProjects\\androminion\\androminion\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex

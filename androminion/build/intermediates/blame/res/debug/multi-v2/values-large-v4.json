@@ -1,0 +1,82 @@
+{
+    "logs": [
+        {
+            "outputFile": "G:\\AndroidStudioProjects\\androminion\\androminion\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-large-v4\\values-large-v4.xml",
+            "map": [
+                {
+                    "source": "G:\\AndroidStudioProjects\\androminion\\androminion\\src\\main\\res\\values-large\\dimensions.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "56",
+                        "endColumns": "41",
+                        "endOffsets": "93"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "41",
+                        "endOffsets": "92"
+                    }
+                },
+                {
+                    "source": "G:\\AndroidStudioProjects\\androminion\\androminion\\src\\main\\res\\values-large\\pref_defaults.xml",
+                    "from": {
+                        "startLines": "4,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "124,56",
+                        "endColumns": "59,67",
+                        "endOffsets": "179,119"
+                    },
+                    "to": {
+                        "startLines": "3,4",
+                        "startColumns": "4,4",
+                        "startOffsets": "97,157",
+                        "endColumns": "59,67",
+                        "endOffsets": "152,220"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "G:\\AndroidStudioProjects\\androminion\\androminion\\build\\intermediates\\res\\merged\\debug\\values-large-v4\\values-large-v4.xml",
+            "map": [
+                {
+                    "source": "G:\\AndroidStudioProjects\\androminion\\androminion\\src\\main\\res\\values-large\\dimensions.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "56",
+                        "endColumns": "41",
+                        "endOffsets": "93"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "41",
+                        "endOffsets": "92"
+                    }
+                },
+                {
+                    "source": "G:\\AndroidStudioProjects\\androminion\\androminion\\src\\main\\res\\values-large\\pref_defaults.xml",
+                    "from": {
+                        "startLines": "4,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "124,56",
+                        "endColumns": "59,67",
+                        "endOffsets": "179,119"
+                    },
+                    "to": {
+                        "startLines": "3,4",
+                        "startColumns": "4,4",
+                        "startOffsets": "97,157",
+                        "endColumns": "59,67",
+                        "endOffsets": "152,220"
+                    }
+                }
+            ]
+        }
+    ]
+}

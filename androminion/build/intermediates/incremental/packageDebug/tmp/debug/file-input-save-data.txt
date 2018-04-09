@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Sun Apr 08 23:14:56 MDT 2018
+0.baseType=DIRECTORY
+0.base=G\:\\AndroidStudioProjects\\androminion\\androminion\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+0.path=classes.dex
+0.set=DEX
+count=1

@@ -1,0 +1,150 @@
+-- Merging decision tree log ---
+manifest
+ADDED from G:\AndroidStudioProjects\androminion\androminion\src\main\AndroidManifest.xml:2:1-83:12
+INJECTED from G:\AndroidStudioProjects\androminion\androminion\src\main\AndroidManifest.xml:2:1-83:12
+INJECTED from G:\AndroidStudioProjects\androminion\androminion\src\main\AndroidManifest.xml:2:1-83:12
+INJECTED from G:\AndroidStudioProjects\androminion\androminion\src\main\AndroidManifest.xml:2:1-83:12
+MERGED from [com.actionbarsherlock:actionbarsherlock:4.4.0] C:\Users\Kevin\.gradle\caches\transforms-1\files-1.1\actionbarsherlock-4.4.0.aar\3ff1bcd5eff115ab33fde5889060a23b\AndroidManifest.xml:2:1-5:12
+INJECTED from G:\AndroidStudioProjects\androminion\androminion\src\main\AndroidManifest.xml:2:1-83:12
+INJECTED from G:\AndroidStudioProjects\androminion\androminion\src\main\AndroidManifest.xml:2:1-83:12
+INJECTED from G:\AndroidStudioProjects\androminion\androminion\src\main\AndroidManifest.xml:2:1-83:12
+	package
+		ADDED from G:\AndroidStudioProjects\androminion\androminion\src\main\AndroidManifest.xml:3:5-38
+		INJECTED from G:\AndroidStudioProjects\androminion\androminion\src\main\AndroidManifest.xml
+		INJECTED from G:\AndroidStudioProjects\androminion\androminion\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from G:\AndroidStudioProjects\androminion\androminion\src\main\AndroidManifest.xml:5:5-31
+		INJECTED from G:\AndroidStudioProjects\androminion\androminion\src\main\AndroidManifest.xml
+		INJECTED from G:\AndroidStudioProjects\androminion\androminion\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from G:\AndroidStudioProjects\androminion\androminion\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from G:\AndroidStudioProjects\androminion\androminion\src\main\AndroidManifest.xml:4:5-30
+		INJECTED from G:\AndroidStudioProjects\androminion\androminion\src\main\AndroidManifest.xml
+		INJECTED from G:\AndroidStudioProjects\androminion\androminion\src\main\AndroidManifest.xml
+uses-sdk
+ADDED from G:\AndroidStudioProjects\androminion\androminion\src\main\AndroidManifest.xml:7:5-9:41
+INJECTED from G:\AndroidStudioProjects\androminion\androminion\src\main\AndroidManifest.xml:7:5-9:41
+INJECTED from G:\AndroidStudioProjects\androminion\androminion\src\main\AndroidManifest.xml:7:5-9:41
+MERGED from [com.actionbarsherlock:actionbarsherlock:4.4.0] C:\Users\Kevin\.gradle\caches\transforms-1\files-1.1\actionbarsherlock-4.4.0.aar\3ff1bcd5eff115ab33fde5889060a23b\AndroidManifest.xml:3:3-70
+MERGED from [com.actionbarsherlock:actionbarsherlock:4.4.0] C:\Users\Kevin\.gradle\caches\transforms-1\files-1.1\actionbarsherlock-4.4.0.aar\3ff1bcd5eff115ab33fde5889060a23b\AndroidManifest.xml:3:3-70
+INJECTED from G:\AndroidStudioProjects\androminion\androminion\src\main\AndroidManifest.xml:7:5-9:41
+INJECTED from G:\AndroidStudioProjects\androminion\androminion\src\main\AndroidManifest.xml:7:5-9:41
+	android:targetSdkVersion
+		ADDED from G:\AndroidStudioProjects\androminion\androminion\src\main\AndroidManifest.xml:9:9-38
+		INJECTED from G:\AndroidStudioProjects\androminion\androminion\src\main\AndroidManifest.xml
+		INJECTED from G:\AndroidStudioProjects\androminion\androminion\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from G:\AndroidStudioProjects\androminion\androminion\src\main\AndroidManifest.xml:8:9-34
+		INJECTED from G:\AndroidStudioProjects\androminion\androminion\src\main\AndroidManifest.xml
+		INJECTED from G:\AndroidStudioProjects\androminion\androminion\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from G:\AndroidStudioProjects\androminion\androminion\src\main\AndroidManifest.xml:11:5-67
+	android:name
+		ADDED from G:\AndroidStudioProjects\androminion\androminion\src\main\AndroidManifest.xml:11:22-64
+uses-permission#android.permission.VIBRATE
+ADDED from G:\AndroidStudioProjects\androminion\androminion\src\main\AndroidManifest.xml:12:5-66
+	android:name
+		ADDED from G:\AndroidStudioProjects\androminion\androminion\src\main\AndroidManifest.xml:12:22-63
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from G:\AndroidStudioProjects\androminion\androminion\src\main\AndroidManifest.xml:13:2-77
+	android:name
+		ADDED from G:\AndroidStudioProjects\androminion\androminion\src\main\AndroidManifest.xml:13:19-75
+supports-screens
+ADDED from G:\AndroidStudioProjects\androminion\androminion\src\main\AndroidManifest.xml:15:5-21:40
+	android:largeScreens
+		ADDED from G:\AndroidStudioProjects\androminion\androminion\src\main\AndroidManifest.xml:17:9-36
+	android:smallScreens
+		ADDED from G:\AndroidStudioProjects\androminion\androminion\src\main\AndroidManifest.xml:20:9-36
+	android:normalScreens
+		ADDED from G:\AndroidStudioProjects\androminion\androminion\src\main\AndroidManifest.xml:18:9-37
+	android:xlargeScreens
+		ADDED from G:\AndroidStudioProjects\androminion\androminion\src\main\AndroidManifest.xml:21:9-37
+	android:resizeable
+		ADDED from G:\AndroidStudioProjects\androminion\androminion\src\main\AndroidManifest.xml:19:9-34
+	android:anyDensity
+		ADDED from G:\AndroidStudioProjects\androminion\androminion\src\main\AndroidManifest.xml:16:9-34
+application
+ADDED from G:\AndroidStudioProjects\androminion\androminion\src\main\AndroidManifest.xml:23:5-81:19
+MERGED from [com.actionbarsherlock:actionbarsherlock:4.4.0] C:\Users\Kevin\.gradle\caches\transforms-1\files-1.1\actionbarsherlock-4.4.0.aar\3ff1bcd5eff115ab33fde5889060a23b\AndroidManifest.xml:4:3-17
+MERGED from [com.actionbarsherlock:actionbarsherlock:4.4.0] C:\Users\Kevin\.gradle\caches\transforms-1\files-1.1\actionbarsherlock-4.4.0.aar\3ff1bcd5eff115ab33fde5889060a23b\AndroidManifest.xml:4:3-17
+	android:label
+		ADDED from G:\AndroidStudioProjects\androminion\androminion\src\main\AndroidManifest.xml:26:9-41
+	android:hardwareAccelerated
+		ADDED from G:\AndroidStudioProjects\androminion\androminion\src\main\AndroidManifest.xml:24:9-43
+	android:icon
+		ADDED from G:\AndroidStudioProjects\androminion\androminion\src\main\AndroidManifest.xml:25:9-38
+	android:allowBackup
+		ADDED from G:\AndroidStudioProjects\androminion\androminion\src\main\AndroidManifest.xml:29:9-35
+	android:theme
+		ADDED from G:\AndroidStudioProjects\androminion\androminion\src\main\AndroidManifest.xml:28:9-46
+	android:name
+		ADDED from G:\AndroidStudioProjects\androminion\androminion\src\main\AndroidManifest.xml:27:3-39
+activity#com.mehtank.androminion.activities.MenuActivity
+ADDED from G:\AndroidStudioProjects\androminion\androminion\src\main\AndroidManifest.xml:30:9-36:20
+	android:name
+		ADDED from G:\AndroidStudioProjects\androminion\androminion\src\main\AndroidManifest.xml:30:19-58
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from G:\AndroidStudioProjects\androminion\androminion\src\main\AndroidManifest.xml:31:13-35:29
+action#android.intent.action.MAIN
+ADDED from G:\AndroidStudioProjects\androminion\androminion\src\main\AndroidManifest.xml:32:17-69
+	android:name
+		ADDED from G:\AndroidStudioProjects\androminion\androminion\src\main\AndroidManifest.xml:32:25-66
+category#android.intent.category.LAUNCHER
+ADDED from G:\AndroidStudioProjects\androminion\androminion\src\main\AndroidManifest.xml:34:17-77
+	android:name
+		ADDED from G:\AndroidStudioProjects\androminion\androminion\src\main\AndroidManifest.xml:34:27-74
+activity-alias#com.mehtank.androminion.Androminion
+ADDED from G:\AndroidStudioProjects\androminion\androminion\src\main\AndroidManifest.xml:39:9-47:26
+	android:targetActivity
+		ADDED from G:\AndroidStudioProjects\androminion\androminion\src\main\AndroidManifest.xml:41:13-62
+	android:name
+		ADDED from G:\AndroidStudioProjects\androminion\androminion\src\main\AndroidManifest.xml:40:13-40
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.DEFAULT
+ADDED from G:\AndroidStudioProjects\androminion\androminion\src\main\AndroidManifest.xml:42:13-46:29
+category#android.intent.category.DEFAULT
+ADDED from G:\AndroidStudioProjects\androminion\androminion\src\main\AndroidManifest.xml:45:17-76
+	android:name
+		ADDED from G:\AndroidStudioProjects\androminion\androminion\src\main\AndroidManifest.xml:45:27-73
+activity#com.mehtank.androminion.activities.GameActivity
+ADDED from G:\AndroidStudioProjects\androminion\androminion\src\main\AndroidManifest.xml:49:9-51:52
+	android:screenOrientation
+		ADDED from G:\AndroidStudioProjects\androminion\androminion\src\main\AndroidManifest.xml:51:13-49
+	android:name
+		ADDED from G:\AndroidStudioProjects\androminion\androminion\src\main\AndroidManifest.xml:50:13-52
+activity#com.mehtank.androminion.activities.StartGameActivity
+ADDED from G:\AndroidStudioProjects\androminion\androminion\src\main\AndroidManifest.xml:52:9-56:20
+	android:name
+		ADDED from G:\AndroidStudioProjects\androminion\androminion\src\main\AndroidManifest.xml:52:19-63
+meta-data#android.support.PARENT_ACTIVITY
+ADDED from G:\AndroidStudioProjects\androminion\androminion\src\main\AndroidManifest.xml:53:13-55:83
+	android:value
+		ADDED from G:\AndroidStudioProjects\androminion\androminion\src\main\AndroidManifest.xml:55:17-80
+	android:name
+		ADDED from G:\AndroidStudioProjects\androminion\androminion\src\main\AndroidManifest.xml:54:17-63
+activity#com.mehtank.androminion.activities.StatisticsActivity
+ADDED from G:\AndroidStudioProjects\androminion\androminion\src\main\AndroidManifest.xml:57:9-61:20
+	android:name
+		ADDED from G:\AndroidStudioProjects\androminion\androminion\src\main\AndroidManifest.xml:57:19-64
+activity#com.mehtank.androminion.activities.SettingsActivity
+ADDED from G:\AndroidStudioProjects\androminion\androminion\src\main\AndroidManifest.xml:62:9-66:20
+	android:name
+		ADDED from G:\AndroidStudioProjects\androminion\androminion\src\main\AndroidManifest.xml:62:19-62
+activity#com.mehtank.androminion.activities.AboutActivity
+ADDED from G:\AndroidStudioProjects\androminion\androminion\src\main\AndroidManifest.xml:67:9-71:20
+	android:name
+		ADDED from G:\AndroidStudioProjects\androminion\androminion\src\main\AndroidManifest.xml:67:19-59
+service#com.mehtank.androminion.server.DominionServer
+ADDED from G:\AndroidStudioProjects\androminion\androminion\src\main\AndroidManifest.xml:73:9-80:19
+	android:enabled
+		ADDED from G:\AndroidStudioProjects\androminion\androminion\src\main\AndroidManifest.xml:75:13-35
+	android:exported
+		ADDED from G:\AndroidStudioProjects\androminion\androminion\src\main\AndroidManifest.xml:76:13-37
+	android:name
+		ADDED from G:\AndroidStudioProjects\androminion\androminion\src\main\AndroidManifest.xml:74:13-50
+intent-filter#action:name:com.mehtank.androminion.SERVER
+ADDED from G:\AndroidStudioProjects\androminion\androminion\src\main\AndroidManifest.xml:77:13-79:29
+action#com.mehtank.androminion.SERVER
+ADDED from G:\AndroidStudioProjects\androminion\androminion\src\main\AndroidManifest.xml:78:17-73
+	android:name
+		ADDED from G:\AndroidStudioProjects\androminion\androminion\src\main\AndroidManifest.xml:78:25-70

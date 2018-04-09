@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "G:\\AndroidStudioProjects\\androminion\\androminion\\build\\intermediates\\res\\merged\\debug\\color\\abs__primary_text_disable_only_holo_light.xml",
+        "source": "C:\\Users\\Kevin\\.gradle\\caches\\transforms-1\\files-1.1\\actionbarsherlock-4.4.0.aar\\3ff1bcd5eff115ab33fde5889060a23b\\res\\color\\abs__primary_text_disable_only_holo_light.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\androminion\\androminion\\build\\intermediates\\res\\merged\\debug\\color\\abs__primary_text_disable_only_holo_dark.xml",
+        "source": "C:\\Users\\Kevin\\.gradle\\caches\\transforms-1\\files-1.1\\actionbarsherlock-4.4.0.aar\\3ff1bcd5eff115ab33fde5889060a23b\\res\\color\\abs__primary_text_disable_only_holo_dark.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\androminion\\androminion\\build\\intermediates\\res\\merged\\debug\\color\\abs__primary_text_holo_dark.xml",
+        "source": "C:\\Users\\Kevin\\.gradle\\caches\\transforms-1\\files-1.1\\actionbarsherlock-4.4.0.aar\\3ff1bcd5eff115ab33fde5889060a23b\\res\\color\\abs__primary_text_holo_dark.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\androminion\\androminion\\build\\intermediates\\res\\merged\\debug\\color\\abs__primary_text_holo_light.xml",
+        "source": "C:\\Users\\Kevin\\.gradle\\caches\\transforms-1\\files-1.1\\actionbarsherlock-4.4.0.aar\\3ff1bcd5eff115ab33fde5889060a23b\\res\\color\\abs__primary_text_holo_light.xml"
+    }
+]
