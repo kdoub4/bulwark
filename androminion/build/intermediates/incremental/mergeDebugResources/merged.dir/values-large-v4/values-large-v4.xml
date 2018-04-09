@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <dimen name="cardWidth">120dp</dimen>
-    <string name="pref_showactionbar_default">true</string>
-    <string name="pref_viewstyle_default">viewstyle-simple</string>
-</resources>
