@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/androminion.iml" filepath="$PROJECT_DIR$/androminion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AndroidStudioProjects-androminion.iml" filepath="$PROJECT_DIR$/AndroidStudioProjects-androminion.iml" />
       <module fileurl="file://$PROJECT_DIR$/androminion/androminion-androminion.iml" filepath="$PROJECT_DIR$/androminion/androminion-androminion.iml" />
       <module fileurl="file://$PROJECT_DIR$/vDom/vDom.iml" filepath="$PROJECT_DIR$/vDom/vDom.iml" />
     </modules>

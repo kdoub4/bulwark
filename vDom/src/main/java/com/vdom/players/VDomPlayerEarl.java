@@ -964,7 +964,7 @@ public class VDomPlayerEarl extends BasePlayer
    }
 
    @Override
-   public Card[] selectFromHand(MoveContext context, Card responsible, int amount, boolean exact, boolean passable, SelectCardOptions.ActionType aType) {
+   public Card[] selectFromHand(MoveContext context, Card responsible, int amount, boolean exact, boolean passable, SelectCardOptions.ActionType aType, SelectCardOptions.PickType pickType) {
      return null;
    }
 

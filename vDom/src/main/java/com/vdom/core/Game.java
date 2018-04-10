@@ -660,8 +660,8 @@ public class Game {
         if (toDiscard == null) {
             p.hand.add(toTrash);
         } else {
-            p.discard(p.hand.removeCard(toDiscard), Cards.oldWound, context);
-            p.trash(toTrash, Cards.oldWound,context);
+            p.discard(p.hand.removeCard(toDiscard), card, context);
+            p.trash(toTrash, card, context);
         }
 
     }
@@ -722,7 +722,9 @@ public class Game {
 
                 break;
             case EmbalmedAcolyte:
-                Card[] cardsToDiscard = currentPlayer.controlPlayer.selectFromHand(context,enemyCard,1, true, true, SelectCardOptions.ActionType.DISCARD );
+                Card[] cardsToDiscard = currentPlayer.controlPlayer.selectFromHand(context,enemyCard,
+                        1, true, true,
+                        SelectCardOptions.ActionType.DISCARD, SelectCardOptions.PickType.DISCARD);
                 if (cardsToDiscard == null) {
                     takeWounds(currentPlayer,1, context, enemyCard, false);
                 }

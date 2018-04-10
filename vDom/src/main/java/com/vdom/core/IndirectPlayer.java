@@ -448,8 +448,8 @@ public abstract class IndirectPlayer extends QuickPlayPlayer {
     // Card interactions - cards from the base game
     // ////////////////////////////////////////////
     @Override
-    public Card[] selectFromHand(MoveContext context, Card responsible, int amount, boolean exact, boolean passable, ActionType aType) {
-        SelectCardOptions sco = new SelectCardOptions().setPickType(PickType.SELECT).setActionType(aType)
+    public Card[] selectFromHand(MoveContext context, Card responsible, int amount, boolean exact, boolean passable, ActionType aType, PickType pickType) {
+        SelectCardOptions sco = new SelectCardOptions().setPickType(pickType).setActionType(aType)
                 .setCardResponsible(responsible).setCount(amount);
         if (exact)
             sco.exactCount();

@@ -987,6 +987,12 @@ public class CardImpl implements Card, Comparable<Card>{
 		        	if (toCall != null && callableCards.contains(toCall)) {
 		        		callableCards.remove(toCall);
 		        		toCall.behaveAsCard().callWhenActionResolved(context, playedCard);
+		        		if (toCall.getKind() == Cards.Kind.TownSquare) {
+		        		    for (int ic = callableCards.size()-1; ic >= 0; ic--) {
+		        		        if (callableCards.get(ic).getKind() == Cards.Kind.TownSquare)
+		        		            callableCards.remove(Cards.townSquare);
+                            }
+                        }
 		        	}
 			        // loop while we still have cards to call
 			        // NOTE: we have a hack here to prevent asking for duplicate calls on an unused Royal Carriage
@@ -1188,13 +1194,15 @@ public class CardImpl implements Card, Comparable<Card>{
         int i;
         switch (this.getKind()) {
             case BrokenCorpse:
-                context.game.blackMarketPile.remove(this);
+                context.game.blackMarketPile.remove( Util.indexOfCardId(getId(), context.game.blackMarketPile));
                 context.game.killACorpse(this,context.getPlayer(),context);
                 context.game.blackMarketPile.add(this);
                 break;
             case TheCatacombite:
                 if (context.getMightTotal()==1) {
                     context.game.addToPile(this,false);
+                    GameEvent event = new GameEvent(GameEvent.EventType.CardOnTopOfDeck, context);
+                    context.game.broadcastEvent(event);
                 }
                 break;
             case KangaxxTheLich:

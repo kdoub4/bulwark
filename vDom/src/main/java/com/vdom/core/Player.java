@@ -1833,7 +1833,7 @@ public abstract class Player {
 
     public abstract Card cardToPlay(MoveContext context, List<Card> options, Card controlCard, boolean passable, String header);
 
-    public abstract Card[] selectFromHand(MoveContext context, Card responsible, int amount, boolean exact, boolean passable, SelectCardOptions.ActionType aType);
+    public abstract Card[] selectFromHand(MoveContext context, Card responsible, int amount, boolean exact, boolean passable, SelectCardOptions.ActionType aType, SelectCardOptions.PickType pickType);
 
     public abstract Card[] cardsToDiscard(MoveContext context, Card responsible, int amount, boolean exact, boolean passable);
 

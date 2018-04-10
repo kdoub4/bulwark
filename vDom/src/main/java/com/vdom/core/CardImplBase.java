@@ -141,7 +141,7 @@ public class CardImplBase extends CardImpl {
                 break;
             case SacredVault:
                 this.putOnTavern(game, context, currentPlayer);
-                Card[] underCards = currentPlayer.selectFromHand(context, this, 1, true, true, SelectCardOptions.ActionType.UNDER );
+                Card[] underCards = currentPlayer.selectFromHand(context, this, 1, true, true, SelectCardOptions.ActionType.UNDER, SelectCardOptions.PickType.SELECT);
                 if (underCards != null) {
                     Card under = underCards[0];
                     // Move to tavern mat
@@ -346,7 +346,6 @@ public class CardImplBase extends CardImpl {
     public void callWhenActionResolved(MoveContext context, Card resolvedAction) {
         if (!callableWhenActionResolved) return;
         if (!call(context)) return;
-        Game game = context.game;
         Player currentPlayer = context.getPlayer();
         callAction(context, currentPlayer);
         finishCall(context);
@@ -411,7 +410,7 @@ public class CardImplBase extends CardImpl {
             return 0;
         }
 
-        Card[] cardsToDiscard = currentPlayer.controlPlayer.selectFromHand(context,this,amount, exact, true, SelectCardOptions.ActionType.DISCARD );
+        Card[] cardsToDiscard = currentPlayer.controlPlayer.selectFromHand(context,this,amount, exact, true, SelectCardOptions.ActionType.DISCARD, SelectCardOptions.PickType.SELECT);
         if (cardsToDiscard == null || !(cardsToDiscard.length == amount || !exact)) {
             return 0;
         }
