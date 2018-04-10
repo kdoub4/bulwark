@@ -2,7 +2,7 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     
 	<!-- AndroidManifest -->
-	<string name="app_name">Androminion</string>
+	<string name="app_name">Bulwark</string>
 
     <!-- Menu Activity -->
     <string name="start_game_menu">Start Game</string>
