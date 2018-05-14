@@ -2639,6 +2639,7 @@ public abstract class IndirectPlayer extends QuickPlayPlayer {
     public Card rogue_cardToGain(MoveContext context) {
         ArrayList<Card> options = new ArrayList<Card>();
         Set<Card> inTrashPile = new HashSet<Card>();
+
         for (Card c : game.trashPile) {
             if (!c.costPotion() && c.getCost(context) >= 3 && c.getCost(context) <= 6)
                 inTrashPile.add(c);
@@ -2649,12 +2650,24 @@ public abstract class IndirectPlayer extends QuickPlayPlayer {
         if (options.isEmpty()) {
             return null;
         }
-        return options.get(selectOption(context, Cards.rogue, options.toArray(), null));
+
+        Object[] optionsAction = new Object[1 + options.size()];
+
+        optionsAction[0] = ActionType.GAIN;
+        for (int i = 0; i < options.size(); i++) {
+            optionsAction[i + 1] = options.get(i);
+        }
+        return options.get(selectOption(context, Cards.rogue, optionsAction, null));
     }
 
     @Override
     public Card rogue_cardToTrash(MoveContext context, ArrayList<Card> canTrash) {
-        return canTrash.get(selectOption(context, Cards.rogue, canTrash.toArray(), null));
+        Object[] options = new Object[1 + canTrash.size()];
+        options[0] = ActionType.TRASH;
+        for (int i = 0; i < canTrash.size(); i++) {
+            options[i + 1] = canTrash.get(i);
+        }
+        return canTrash.get(selectOption(context, Cards.rogue, options, null));
     }
 
     @Override
